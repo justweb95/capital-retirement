@@ -4,7 +4,7 @@
   src: url(fonts/mulis/Mulish-VariableFont_wght.ttf);
 }
 @font-face {
-  font-family: "Ubuntu-bold";
+  font-family: "Ubuntu";
   src: url(fonts/ubuntu/Ubuntu-Bold.ttf);
 }
 @font-face {
@@ -345,6 +345,7 @@ html {
     display: none;
   }
   .hero .nav #logo-phone {
+    max-width: 160px;
     display: block;
   }
 }
@@ -433,7 +434,7 @@ html {
   }
 }
 .hero header .text h1 {
-  font-family: "Ubuntu-bold", "sans-serif";
+  font-family: "Ubuntu", "sans-serif";
   font-style: italic;
   font-size: 40px;
   line-height: 50px;
@@ -571,11 +572,9 @@ html {
 }
 @media (max-width: 500px) {
   .steps .firstStep {
-    -ms-grid-row-align: center;
     align-self: center;
   }
   .steps .thirdStep {
-    -ms-grid-row-align: center;
     align-self: center;
   }
 }
@@ -712,7 +711,7 @@ html {
   }
 }
 .success div h2 {
-  font-family: "Ubuntu-bold", "sans-serif";
+  font-family: "Ubuntu", "sans-serif";
   font-size: 40px;
   line-height: 55px;
   color: #061F3F;
@@ -789,17 +788,17 @@ html {
 }
 @media (max-width: 1024px) {
   .assist {
-    height: 1050px;
+    height: auto;
   }
 }
 @media (max-width: 768px) {
   .assist {
-    height: 1180px;
+    height: auto;
   }
 }
 @media (max-width: 450px) {
   .assist {
-    height: 850px;
+    height: auto;
   }
 }
 .assist article {

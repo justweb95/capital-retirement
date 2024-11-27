@@ -8,7 +8,7 @@ $transition: .5s ease;
   src: url(fonts/mulis/Mulish-VariableFont_wght.ttf);
 }
 @font-face {
-  font-family: 'Ubuntu-bold';
+  font-family: 'Ubuntu';
   src: url(fonts/ubuntu/Ubuntu-Bold.ttf);
 }
 @font-face {
@@ -435,6 +435,7 @@ html{scroll-behavior:smooth}
           display: none;
         }
         #logo-phone{
+          max-width: 160px;
           display: block;
         }
       }
@@ -504,7 +505,7 @@ header{
       @include blueLine();
     }
     h1{
-      font-family: 'Ubuntu-bold', 'sans-serif';
+      font-family: 'Ubuntu', 'sans-serif';
       font-style: italic;
       font-size: 40px;
       line-height: 50px;
@@ -769,7 +770,7 @@ header{
         }
       }
       h2{
-        font-family: 'Ubuntu-bold','sans-serif';
+        font-family: 'Ubuntu','sans-serif';
         font-size: 40px;
         line-height: 55px;
         color: #061F3F;

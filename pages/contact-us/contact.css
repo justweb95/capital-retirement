@@ -297,6 +297,7 @@
     display: none;
   }
   .hero .nav #logo-phone {
+    max-width: 160px;
     display: block;
   }
 }
@@ -442,13 +443,6 @@
   background-color: #F6F6F6;
 }
 .hero header .touch form input::-moz-placeholder {
-  font-family: "Mulish", "sans-serif";
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 25px;
-  color: #726E6E;
-}
-.hero header .touch form input:-ms-input-placeholder {
   font-family: "Mulish", "sans-serif";
   font-weight: 400;
   font-size: 14px;

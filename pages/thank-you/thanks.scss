@@ -49,6 +49,7 @@
         display: none;
       }
       #logo-phone{
+        max-width: 160px;
         display: block;
       }
     }
@@ -135,7 +136,9 @@
         letter-spacing: 1px;
         color: #17262F;
       }
-      button{
+      a{
+        text-decoration: none;
+        display: inline-block;
         background: linear-gradient(90deg, #57C3FF 0%, #266FAE 100%);
         margin: 30px auto 50px auto;
         border-style: none;

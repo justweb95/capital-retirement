@@ -1,6 +1,7 @@
 document.querySelector('#myform').addEventListener('submit', (e) => {
   e.preventDefault();
   console.log('The form has been submitted');
+  location.href = '../../pages/thank-you/thanks.html'
   return false;
 })
 

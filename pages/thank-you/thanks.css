@@ -53,6 +53,7 @@
     display: none;
   }
   .hero .nav #logo-phone {
+    max-width: 160px;
     display: block;
   }
 }
@@ -148,7 +149,9 @@
   letter-spacing: 1px;
   color: #17262F;
 }
-.hero header .text button {
+.hero header .text a {
+  text-decoration: none;
+  display: inline-block;
   background: linear-gradient(90deg, #57C3FF 0%, #266FAE 100%);
   margin: 30px auto 50px auto;
   border-style: none;
@@ -160,19 +163,19 @@
   font-size: 18px;
   transition: 0.3s ease;
 }
-.hero header .text button:hover {
+.hero header .text a:hover {
   cursor: pointer;
   transform: scale(1.1);
   transition: 0.3s ease;
 }
 @media (max-width: 550px) {
-  .hero header .text button {
+  .hero header .text a {
     font-size: 14px;
     padding: 7.5px 22.5px;
   }
 }
 @media (max-width: 425px) {
-  .hero header .text button {
+  .hero header .text a {
     font-size: 12px;
     padding: 7.5px 7.5px;
   }
